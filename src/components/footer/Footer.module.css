@@ -1,0 +1,11 @@
+.footer{
+    /* height: vh; */
+    background-color: #333333;
+}
+
+.footer h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 1.5em;
+}

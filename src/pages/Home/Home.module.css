@@ -1,0 +1,31 @@
+.titles{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titles ul{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+}
+
+.titles li{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 10vh;
+}
+
+.titles p{
+    text-align: center;
+    padding-top: .9em;
+    
+}
+
+.titles img{
+    height: 250px;
+    border-radius: 5px; 
+}

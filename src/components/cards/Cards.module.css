@@ -1,0 +1,52 @@
+.topsDaSemana{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -200px;
+}
+
+.topsDaSemana h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.topsDaSemana h1:hover{
+    cursor: pointer;
+    text-decoration: underline 5px #00d756;
+}
+
+.titles{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.titles li{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 10vh;
+    border-radius: 5px; 
+}
+
+.titles li:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 25px 0 rgba(0,215,86,0.64), 0 17px 50px 0 rgba(0,0,0,0.59);
+}
+
+.titles p{
+    text-align: center;
+    padding-top: .9em;
+    color: white;
+}
+
+.titles img{
+    height: 250px;
+    border-radius: 5px; 
+}

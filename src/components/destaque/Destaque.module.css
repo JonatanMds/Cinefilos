@@ -1,0 +1,98 @@
+.destaque{
+    height: 120vh;
+    margin-top: -9vh;
+    color: white;
+}
+
+.destaque_vertical{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111, 20%, transparent 80%);
+}
+
+.destaque_horizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111, 30%, transparent 70%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;     
+
+}
+
+.destaque_informacoes{
+    /* margin-left: 60px; */
+    width: max(400px, 30vw);
+}
+
+.destaque_informacoes h1{
+    /* font-size: 2.5em; */
+    font-size: max(20px, 2.5vw);
+    margin-bottom: 3vh;
+}
+
+.destaque_average{
+    /* width: 80vw; */
+    width: max(40px, 5vw);
+    /* height: 80px; */
+    height: max(40px, 5vw);
+
+    /* font-size: 1.6em; */
+    /* font-size: max(1.6vw, 3vw); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 3px;
+    border-color: #00d756;
+    border-style: solid;
+    /* display: inline; */
+    border-radius: 50%;
+    background-color: #333333;;
+    margin-bottom:30px ;
+    
+}
+
+.destaque_informacoes div p{
+    /* font-size: 1.5em; */
+    /* font-size: 2vw; */
+    font-size: max(20px, 2.5vw);
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black;;
+}
+
+.destaque_informacoes p{
+    /* font-size: 1.2em; */
+    font-size: max(15px, 1.5vw);
+    margin-bottom: 1.2vh;
+}
+
+.destaque_informacoes button{
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: #00d756;
+    border: none;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    margin-top: 30px;
+    border-radius: 20px;    
+}
+
+.destaque_informacoes button:hover{
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(255,255,255,0.3), 0 17px 50px 0 rgba(255,255,255,0.2);
+}
+
+.video{
+    border-radius: 50px;
+}
+
+.video div{
+    border-radius: 10px;
+}
+
+
+@media (max-width:768px){
+    .video{
+        display: none;
+    }
+}
